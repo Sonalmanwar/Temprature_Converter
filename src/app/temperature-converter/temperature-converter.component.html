@@ -1,0 +1,27 @@
+<div class="container-fluid">
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header ">
+              <h2 class="card-title text-center">Temperature Converter</h2>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="celsiusInput">Celsius:</label>
+                <input type="number" id="celsiusInput" class="form-control" [(ngModel)]="celsius" (input)="convertToFahrenheit(celsius)">
+              </div>
+              <div class="form-group">
+                <label for="fahrenheitInput">Fahrenheit:</label>
+                <input type="number" id="fahrenheitInput" class="form-control" [(ngModel)]="fahrenheit" (input)="convertToCelsius(fahrenheit)">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+
+
+  
+  

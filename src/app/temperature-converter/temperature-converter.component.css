@@ -1,0 +1,36 @@
+.card {
+    border: 2px solid #8b6de4; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(7, 7, 7, 0.1); 
+  }
+  
+  .card-header {
+    border-radius: 10px 10px 0 0; 
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px; 
+  }
+
+  .card-header{
+    background-color: #8b6de4;
+  }
+  
+
+.form-control {
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  
+  .form-control:hover {
+    border-color: #a048e3; 
+  }
+
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+    
